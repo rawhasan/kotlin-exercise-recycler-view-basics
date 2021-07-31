@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Learning/AndroidStudioProjects/RecyclerViewExercise/app/src/main/res/layout/activity_main.xml" value="0.42916666666666664" />
+        <entry key="..\:/Learning/AndroidStudioProjects/RecyclerViewExercise/app/src/main/res/layout/fragment_text_image.xml" value="0.3434125269978402" />
+        <entry key="..\:/Learning/AndroidStudioProjects/RecyclerViewExercise/app/src/main/res/layout/fragment_text_list.xml" value="0.42916666666666664" />
+        <entry key="..\:/Learning/AndroidStudioProjects/RecyclerViewExercise/app/src/main/res/layout/fragment_word_list.xml" value="0.42916666666666664" />
+        <entry key="..\:/Learning/AndroidStudioProjects/RecyclerViewExercise/app/src/main/res/layout/list_item.xml" value="0.42916666666666664" />
+        <entry key="..\:/Learning/AndroidStudioProjects/RecyclerViewExercise/app/src/main/res/layout/text_list_item.xml" value="0.42916666666666664" />
+        <entry key="..\:/Learning/AndroidStudioProjects/RecyclerViewExercise/app/src/main/res/layout/word_list_item.xml" value="0.42916666666666664" />
+        <entry key="..\:/kotlin-exercises/recycler-view-basic-lists/app/src/main/res/layout/activity_main.xml" value="0.42916666666666664" />
+        <entry key="..\:/kotlin-exercises/recycler-view-basic-lists/app/src/main/res/layout/fragment_text_image.xml" value="0.1" />
+        <entry key="..\:/kotlin-exercises/recycler-view-basic-lists/app/src/main/res/layout/fragment_text_list.xml" value="0.42916666666666664" />
+        <entry key="..\:/kotlin-exercises/recycler-view-basic-lists/app/src/main/res/layout/fragment_word_list.xml" value="0.20871327254305977" />
+        <entry key="..\:/kotlin-exercises/recycler-view-basic-lists/app/src/main/res/layout/text_list_item.xml" value="0.20871327254305977" />
+        <entry key="..\:/kotlin-exercises/recycler-view-basic-lists/app/src/main/res/layout/word_list_item.xml" value="0.20871327254305977" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
