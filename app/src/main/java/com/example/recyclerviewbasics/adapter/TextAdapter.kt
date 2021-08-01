@@ -10,7 +10,7 @@ import com.example.recyclerviewexercise.R
 import com.example.recyclerviewbasics.model.TextAffirmation
 
 // Adapter for the [RecyclerView] in [MainActivity]. Displays [TextAffirmation] data object.
-// Context was required to access values from the resource files (string).
+// Context is required to access values from the string resource.
 class TextAdapter(
     private val context: Context,
     private val dataset: List<TextAffirmation>

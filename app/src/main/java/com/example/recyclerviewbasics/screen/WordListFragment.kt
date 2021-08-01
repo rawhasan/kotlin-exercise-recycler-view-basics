@@ -1,7 +1,6 @@
 package com.example.recyclerviewbasics.screen
 
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -26,11 +25,9 @@ class WordListFragment : Fragment() {
 
         val dataset = WordDatasource().loadWords()
 
-        Log.d("WordListFragment", dataset.size.toString())
+        val wordRecyclerView = view.findViewById<RecyclerView>(R.id.word_recycler_view)
+        wordRecyclerView.adapter = WordAdapter(dataset)
 
-        val recyclerView = view.findViewById<RecyclerView>(R.id.word_recycler_view)
-        recyclerView.adapter = WordAdapter(dataset)
-
-        recyclerView.setHasFixedSize(true)
+        wordRecyclerView.setHasFixedSize(true)
     }
 }

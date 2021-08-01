@@ -26,11 +26,11 @@ class TextListFragment : Fragment() {
         // Initialize data.
         val myDataset = TextDatasource().loadAffirmations()
 
-        val recyclerView = view.findViewById<RecyclerView>(R.id.recycler_view)
-        recyclerView.adapter = TextAdapter(view.context, myDataset)
+        val textRecyclerView = view.findViewById<RecyclerView>(R.id.text_recycler_view)
+        textRecyclerView.adapter = TextAdapter(view.context, myDataset)
 
         // Use this setting to improve performance if you know that changes
         // in content do not change the layout size of the RecyclerView
-        recyclerView.setHasFixedSize(true)
+        textRecyclerView.setHasFixedSize(true)
     }
 }
